@@ -19,5 +19,5 @@ class Migration(migrations.Migration):
         migrations.AlterModelOptions(
             name='success',
             options={'verbose_name_plural': 'Successful tasks', 'verbose_name': 'Successful task'},
-        )
+        ),
     ]
