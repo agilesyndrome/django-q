@@ -15,7 +15,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='schedule',
             name='cron',
-            field=models.CharField(blank=True, help_text='Cron expression', max_length=100, null=True, validators=[
-                django_q.models.validate_cron]),
+            field=models.CharField(blank=True, help_text='Cron expression', max_length=100, null=True, validators=[django_q.models.validate_cron]),
         ),
     ]
